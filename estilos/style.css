@@ -168,6 +168,95 @@ main a#vermais{
     /* width: 25vw; */
 }
 
+
+section.cor02{
+    /* background-color: rgba(231, 231, 231, 0.548); */
+    padding-bottom: 20px;
+    display: flex;
+    padding-top: 50px;
+    width: 100vw;
+    margin-left: 16rem;
+}
+
+section.cor02 h1, p{
+    margin-left: 60px;
+    /* padding: 10px; */
+}
+
+section.cor02 h1#escolha{
+    font-size: 2rem;
+}
+
+section.cor02 a{
+    background-color: orangered;
+    text-decoration: none;
+    border-radius: 8px;
+    /* margin-right: 5rem; */
+}
+
+section.cor02 a:hover{
+    background-color: rgba(169, 169, 169, 0.444);
+    color: black;
+    transition-duration: 1s;
+}
+
+section.cor02 img{
+     /* float: right; */
+    display: block;
+    justify-content: end;
+    padding-top: 50px;
+    padding-left: 50px;
+    max-width:400px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+section.cor02 h3{
+    font-size: 1em;
+}
+
+section.cor02 div.esq img{
+    margin-bottom: 3rem;
+}
+
+section.cor02 div.esq p{
+    margin-left: 3rem;
+}
+
+section.cor02 li{
+    list-style: none;
+}
+
+div.icon #ti-co2{
+    display: block;
+    margin: 2rem auto;
+    width: 30%;
+}
+
+/* div.icon h3{
+    margin-left: 50px;
+    margin-top: 20px;
+}  */
+
+div.icon > li > img{
+    width: 20px;
+    display: inline-block;
+}
+
+section.cor02 > .azul{
+    margin-left: 40vw;
+    padding-bottom: 20px;
+}
+
+p.valor{
+    color: orangered;
+    /* background-color: rgba(105, 105, 105, 0.167); */
+    border-radius: 10px;
+    width: 390px;
+    font-size: 1.7rem;
+}
+
 section.cor03{
     /* background-color: rgba(0, 0, 0, 0.778); */
     /* padding-bottom: 20px; */
