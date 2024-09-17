@@ -329,3 +329,51 @@ section.cor03 img{
     width: 29vw;
     float: right;
 }
+
+footer{
+    margin: 2rem 15rem 0 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer #cima{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+footer #cima #esq{
+    display: flex;
+    flex-direction: column;
+}
+
+footer #cima #esq img{
+    width: 60%;
+    margin-bottom:2rem;
+}
+
+footer #cima #meio{
+    display: flex;
+    flex-direction: column;
+}
+
+footer #cima #meio a{
+    padding: 0.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+footer #cima #dir img{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(126, 126, 126);
+    width: 10%;
+}
+
+footer #baixo{
+    border-top: 1px solid rgb(108, 108, 108);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0 1.5rem 0;
+}
