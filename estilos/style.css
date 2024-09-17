@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+nav{
+    font-size: 1rem;
+    justify-content: space-between;
+    display: flex;
+    background-color: var(--cor2);
+    margin-left: 18rem;
+    padding: 0.5rem 1rem;
+    margin-right: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+nav div.esq a{
+    justify-content: space-between;
+    text-decoration: none;
+    padding-left:1rem;
+    font-size: 1rem;
+    color: gray;
+}
+
+nav div.dir{
+    padding: 0.9rem;
+}
+
+nav div.dir a{
+    font-size: 0.9rem;
+}
+
+nav .dir #ti_nav{
+    padding: 0.8rem;
+    background-color: inherit;
+    color: orange;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.2px;
+    margin-bottom: 1rem;
+}
+
+nav img{
+    height: 1rem; 
+}
+
+nav > a{
+    color: rgb(95, 94, 94);
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    color: var(--cor03);
+}
+
+.botao{
+    margin-left: 100px;
+}
+
+section.cor01{
+    background-color: #F5F5F5;
+    padding-bottom: 20px;
+    width: 100vw;
+    padding-bottom: 3rem;
+}
+
+main section.cor01 h1{
+    margin-left: 22rem;
+    padding: 10px;
+    font-size: 2.2rem;
+}
+
+section.cor01 p{
+    margin-left: 22rem;
+    margin-bottom: 0.5rem;
+    padding: 10px;
+    font-size: 1.1  rem;
+    color: grey;
+}
+
+section.cor01 img{
+    float: right;
+    max-width:400px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-right: 20rem;
+    margin-top: 2rem;
+}
+
+.b-laranja{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    padding: 1rem;
+}
+
+.b-laranja#ti{
+    margin-left: 23.5rem;
+}
+
+section.cor01 div{
+    color: orange;
+}
+
+section.cor01::-webkit-scrollbar{
+    display: none;
+}
